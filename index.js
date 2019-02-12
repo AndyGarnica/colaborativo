@@ -4,7 +4,7 @@ const nudo = require('./nudo');
 const final = require('./final');
 
 
-const  personaje = "Andy";
+const  personaje3 = "Vick";
 const  edad = Math.round(Math.random() * 100);
 const  villano = "Rich";
 const  lugar = "En far far away";
