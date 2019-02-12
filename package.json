@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Intro a node",
+  "main": "index.js",
+  "scripts": {
+    "cowsay": "./node_modules/.bin/cowsay",
+    "cowthink": "./node_modules/.bin/cowthink"
+  },
+  "author": "Andrea Garnica",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.4.0"
+  }
+}
