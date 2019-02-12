@@ -3,10 +3,11 @@ const intro = require('./inicio');
 const nudo = require('./nudo');
 const final = require('./final');
 
-const  personaje3 = "Vick";
+
 const  personaje = "Andy";
 const  personaje2 = "Natasha";
 const personaje4 = "Richie";
+const  personaje3 = "Vick";
 
 const  edad = Math.round(Math.random() * 100);
 const  villano = "Rich";
