@@ -15,10 +15,4 @@ const  lugar = "En far far away";
 const  hobby = "programar";
 
 
-console.log(inicio.historia(personaje, personaje2, personaje4, personaje3, hobby));
-
-// console.log(cowsay.say({
-//   text : 'Hola',
-//   e : "O O",
-//   T : "U"
-// }));
+console.log(intro.historia(personaje, lugar, edad), nudo.historia(personaje,personaje2, personaje3, personaje4,lugar,villano,hobby, edad));
