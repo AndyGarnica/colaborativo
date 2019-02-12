@@ -1,8 +1,7 @@
-var cowsay = require('cowsay');
+// var cowsay = require('cowsay');
 const intro = require('./inicio');
 const nudo = require('./nudo');
 const final = require('./final');
-
 
 const  personaje = "Andy";
 const  personaje2 = "Natasha";
