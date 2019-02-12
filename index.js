@@ -14,4 +14,4 @@ const  lugar = "En far far away";
 const  hobby = "programar";
 
 
-console.log(inicio.historia(personaje, personaje2, personaje3, personaje4, lugar, edad, hobby), nudo.historia(personaje,personaje2, personaje3, personaje4,lugar,villano,hobby, edad));
+console.log(inicio.historia(personaje, personaje2, personaje3, personaje4, hobby), nudo.historia(personaje, personaje2, personaje3, personaje4, lugar, villano, hobby, edad));
