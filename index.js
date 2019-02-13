@@ -24,7 +24,7 @@ const villano = "Rich";
 const lugar = "En far far away";
 const hobby = "programar";
 
-// // Funcion Callback - La declaras
+// // Funcion Callback - La declaras de la siguiente forma:
 // fs.readFile('personaje.txt', 'utf-8', leerArchivo)
 
 
@@ -49,6 +49,14 @@ fs.readFile('personajes.txt', 'utf-8', function(err, contenido) { //El primer pa
     // console.log(personajes[personajes.length - 1]); //Trae el ultimo personaje de la lista
     // console.log(personajes[2]); //Imprime el personaje que tiene la posicion 2 en el array
     console.log(personajeRandom); //Imprime un personaje diferente ya que se ocupo Random y floor
+
+    // WhiteFile recibe 3 parametros, nombre del archivo, variable, funcion que tiene como parametro el error
+    fs.writeFile('historia.txt', historiaCompleta, function (err) {
+        if (err) {//Si err existe
+            throw err;
+        }
+    });
+
 })
 
 
