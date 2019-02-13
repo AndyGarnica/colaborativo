@@ -5,8 +5,8 @@ const final = require('./final');
 
 const  personaje = "Andy";
 const  personaje2 = "Natasha";
-const personaje4 = "Richie";
 const  personaje3 = "Vick";
+const  personaje4 = "Richie";
 
 const  edad = Math.round(Math.random() * 100);
 const  villano = "Rich";
