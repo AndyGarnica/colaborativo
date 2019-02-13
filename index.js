@@ -1,4 +1,6 @@
 // var cowsay = require('cowsay');
+const fs = require('fs');
+
 const inicio = require('./inicio');
 const nudo = require('./nudo');
 const final = require('./final');
