@@ -31,6 +31,12 @@ fs.readFile('./personajes.txt', 'utf-8', function(err, contenido){
   console.log(personajeRandom);
   console.log(historiaCompleta);
 
+  fs.writeFile('historia.txt', historiaCompleta, function(err) {
+    if(err) {
+      throw err;
+    }
+  });
+
 });
 
 
